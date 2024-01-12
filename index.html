@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stream TV and Movies Live and Online</title>
+
+    <style>
+      * {
+          margin: 0;
+          padding: 0
+      }
+
+
+
+          body {
+              background:url(hulu.jpeg);
+              overflow-x: scroll;
+               overflow-y: scroll;
+              background-size: cover;
+              overflow-y: scroll;
+              overflow-x: hidden;
+         background-repeat: no-repeat;
+          }
+
+       .main {
+          display: flex;
+         justify-content: space-between;
+         margin-top: 25px;
+      }
+
+      .hulu {
+          margin-left: 45px;
+          color: rgb(16, 255, 11);
+          font-size: 30px;
+      }
+
+      .log{
+         margin-right: 45px;
+         text-align: center;
+         color:white;
+         font-size: 18px;
+         height: 25px;
+         width: 68px;
+         padding-top: 4px;
+         background-color:transparent;
+         cursor: pointer;
+      }
+
+      .log:hover {
+            background:rgb(209, 198, 198);
+             color: black;
+          }
+
+      .grid {
+          height: 320px;
+          width: 345px;
+          margin-left: 450px;
+          margin-top: 120px;
+
+      }
+
+      .dis {
+          background-color: #1ce783;
+
+          text-align: center;
+         }
+
+         .img {
+          height: 85px;
+         margin-left: 25px;
+         padding-top: 25px;
+       }
+
+       .hm {
+          margin-bottom: 5px;
+          margin-left:  98px;
+          background-color: #1ce783;
+       }
+
+       .logoo {
+          height: 85px;
+          position: relative;
+          right: 25px;
+
+       }
+
+       .colr {
+          margin-left: 25px;
+          margin-top: 25px;
+          color:rgb(16, 255, 11) ;
+          position: relative;
+          left: 45px;
+          top: 10px;
+
+       }
+
+       .alg {
+          text-align: center;
+          color: #1ce783;
+
+      }
+       .yes {
+
+          padding-top: 10px;
+
+       }
+
+       .basic{
+         display: flex;
+         justify-content:space-around;
+       }
+
+       .both {
+          color:white;
+          height: 45px;
+          width: 200px;
+          display: flex;
+          justify-content: center;
+          margin-left: 75px;
+          text-align: center;
+          font-size: 25px;
+       }
+
+       .ban {
+          position: relative;
+          top: 25px;
+          width: 300px;
+          border-radius: 8px;
+          height: 38px;
+          background-color: #1ce783;
+          color: black;
+          cursor: pointer;
+          margin-left: 22px;
+      }
+        .p {
+          color: red;
+        }
+
+        .gridd {
+          height: 320px;
+          width: 345px;
+          margin-left: 945px;
+          position: relative;
+          bottom: 320px;
+          right: 170px;
+        }
+        .eng {
+          color: red;
+          height: 145px;
+          width: 285px;
+         position: relative;
+         left: 645px;
+         bottom: 390px;
+
+        }
+
+        .href {
+            margin-left: 90px;
+            color: rgb(16, 255, 11);
+            color:cornflowerblue;
+      }
+
+      .for {
+          color:rgb(103, 91, 63);
+
+          color: white;
+          position: relative;
+          top: 30px;
+          left: 25px;
+      }
+
+      .for:hover {
+          color: rgb(16, 255, 11);
+      }
+
+      .view {
+          position: relative;
+          top: 70px;
+          left: 70px;
+      color: white;
+      }
+
+      .sk {
+          height: 105px;
+          margin-top: 75px;
+          margin-left: 85px;
+
+      }
+
+       .hov {
+          border: 1px solid  #1ce783;
+          background-color: black;
+          height: 140px;
+          width: 1680px;
+          position: relative;
+          right: 660px;
+          box-shadow: inset 5px 50px 95px #1ce783;;
+      }
+
+        .the {
+          color: white;
+        }
+
+          .the {
+             margin-left:600px;
+             margin-top: 25px;
+          }
+          .vs {
+              border: 2px solid white;
+              height: 30px;
+              text-align: center;
+              color: white;
+              width: 260px;
+              padding-top:10PX;
+              margin-left: 670px;
+              margin-top: 25px;
+              cursor: pointer;
+          }
+
+          .vs:hover {
+              background-color:rgb(222, 222, 222);
+              color: black;
+          }
+
+          .blk {
+              border: 2px solid black;
+              height: 1285px;
+              background-color: black;
+              width: 1650px;
+              position: relative;
+              right: 755px;
+          }
+
+          .vss {
+          height: 300px;
+          text-align: center;
+          color: #1ce783;
+          width: 750px;
+          padding-top:10PX;
+          margin-left: 540px;
+          margin-top: 80px;
+          cursor: pointer;
+          }
+
+
+            
+          .s {
+              color: white;
+              margin-top: 20px;
+              font-size:50px ;
+          }
+
+          .ss {
+              color: white;
+              font-size: 20px;
+              margin-top: 30px;: ;
+          }
+
+          .newww {
+              font-size: 18px;
+          }
+
+          .shri {
+            border-radius: 10px;
+            border:3px solid white;
+              height: 400px;
+              margin-left: 45px;
+              width: 20vw;
+              margin-left: 220px;
+              background: url(first.png);
+              background-size: cover;
+              position: relative;
+              bottom: 75px;
+              cursor: pointer;
+          }
+
+           .shri:hover {
+            border-color: orange;
+        }
+   
+          .mean {
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            padding: 5px;
+          }
+
+          .shrii {
+            border-radius: 10px;
+            border:3px solid white;
+              height: 400px;
+              margin-left: 45px;
+              width: 20vw;
+              margin-left: 560px;
+              position:relative;
+              bottom: 480px;
+              background: url(second.jpeg);
+              background-size: cover;
+              cursor: pointer;
+          }
+
+          .shrii:hover {
+            border-color: orange;
+        }
+   
+          .meann {
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            padding: 5px;
+          }
+
+          .shriii {
+            border-radius: 10px;
+            color: white;
+            border:3px solid white;
+              height: 400px;
+              margin-left: 45px;
+              width: 20vw;
+              margin-left: 910px;
+              position:relative;
+              bottom: 887px;
+              background: url(third.png);
+              background-size: cover;
+              cursor: pointer;
+          }
+
+          .shriii:hover {
+            border-color: orange;
+        }
+   
+          .meannn {
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            padding: 5px;
+          }
+
+          
+          .shriiii {
+            border-radius: 10px;
+            border:3px solid white;
+              height: 400px;
+              margin-left: 10px;
+              width: 20vw;
+              margin-left: 1250px;
+              position:relative;
+              bottom: 1292px;
+              background: url(fourth.png);
+              background-size: cover;
+              cursor: pointer;
+          }
+
+          .shriiii:hover {
+            border-color: orange;
+        }
+   
+          .meannnn {
+            color: white;
+            position: relative;
+            top: 15px;
+            left: 20px;
+            padding: 5px;
+          }
+
+          .lve {
+            color: white;
+          }
+
+          .lvee {
+            position: relative;
+            bottom: 440px;
+            height: 400px;
+            width: 700px;
+            right: 220px;
+          }
+
+          .now {
+                color:#1ce783;
+                padding: 5px;
+                text-align: center;
+          }
+
+          .it {
+            font-size: 50px;
+            padding: 25px;
+          }
+
+          .ht {
+            font-size: 17px;
+            text-align: center;
+          }
+   
+          .shiv {
+            border-radius: 5px;
+            height: 40px;
+            width: 200px;
+            padding-top: 10px;
+            display: flex;
+            padding-left: 5px;
+            margin-left: 250px;
+            margin-top: 15px;
+            
+            background-color: #1ce783 ;
+
+          }
+          .shiva {
+            color: black;
+            text-align: center;
+            cursor: pointer;
+          }
+           
+         
+
+
+          .rice {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 10px;
+          }
+
+          .klr {
+            color: white;
+            margin-left: 230px;
+             position: relative;
+             top: 25px;  
+          }
+
+          .face {
+           position: relative;
+           bottom: 400px;
+           right: 650px;
+          } 
+         
+          .rud {
+              height: 405px;
+              position: relative;
+              bottom: 1000px;
+              right: 330px;
+              width: 500px;
+          }
+
+          .d {
+            display: flex;
+            justify-content:space-evenly;
+            color: white;
+            padding: 22px;
+            margin-left: 45px;
+          }
+
+          .sm {
+            color: white;
+            margin-left: 90px;
+            font-size: 45px;
+          }
+
+          .catch {
+            color: white;
+            margin-top: 25px;
+            margin-left: 90px;
+          }
+
+
+           .imgg {
+            display: flex;
+            height: 55px;
+            width: 45px;
+            margin-left: 80px;
+           }
+
+           .plan {
+            color: white;
+            font-size: 11px;
+            margin-top: 20px;
+            padding-left: 95px;
+           }
+
+           .grey {
+            height: 85px;
+            position: relative;
+            bottom: 810px;
+            height: 750px;
+            width: 1530px;
+            right: 645px;
+            background-color: black;
+            padding-bottom: 400px;
+          }
+
+          .dan {
+            height: 600px;
+            width: 540px;
+            position: relative;
+            bottom: 1890px;
+            right: 20px;
+          }
+
+          .pln {
+           color: white;
+           text-align: center;
+           font-size: 45px;
+          }
+          .plnn{
+            color: white;
+            text-align: center;
+            padding-top: 20px; 
+          }
+
+          .hum {
+            display: flex;
+         border-radius: 30px;
+            border: 2px solid white;
+            width: 280px;
+            padding-top: 7px;
+            height: 37px;
+            justify-content: space-evenly;
+            color: #1ce783;
+            margin-top: 40px;
+            margin-left: 120px;
+         
+            
+          }
+
+          .lok {
+            color: #1ce783;
+            border: 2px solid yellow;
+            height: ;
+          }
+
+           .sand {
+            border: 1px solid white;
+            height: 40px;
+            border-left: hidden;
+            border-top: hidden;
+            border-right: hidden;
+            width: 1000px;
+            margin-top: 0px;
+            position: relative;
+            right: 350px;
+            bottom: 10px;
+           }
+          
+           .ltvv {
+            height: 300px;
+            width: 350px;
+            position: relative;
+            margin-left: 340px;
+            bottom:282px; 
+          }
+           .ltv {
+            height: 300px;
+            width: 350px;
+           }
+
+           .most {
+            color: black;
+            padding-top: 2px;
+            text-align: center;
+            border-radius: 10px;
+            height: 15px;
+            margin-left: 100px;
+            margin-top: 25px;
+            width: 150px;
+            background-color:  #1ce783;
+            align-items: center;
+           }
+          
+           .mostt{
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+           }
+
+           .mosttt{
+            color: white;
+            margin-top: 15px;
+            text-align: center;
+           }
+
+           
+           .mostttt{
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+           }
+
+           
+           .mostttt{
+            color: white;
+            margin-top: 20px;
+            text-align: center;
+          
+
+           }
+
+           
+           .mosttttt{
+            color: black;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: center;
+            border: 2px solid white;
+            height: 30px;
+            padding-top: 10px;
+            width: 280px;
+            margin-left: 40px;
+            font-size: 18px;
+            background-color: white;
+           }
+
+        .kall {
+          border: 1px solid white;
+          width: 980px;
+          color: white;
+          position: relative;
+          bottom: 400px;
+          right: 360px;
+          display: flex;
+          border-left: hidden;
+          border-right: hidden;
+          border-bottom: hidden;
+          gap: 35px;
+          padding-top: 20px;
+          flex-direction: column;
+        }
+
+        .skkk {
+          display: flex;
+          flex-direction: column;
+          height: 10px;
+          margin-left: 100px;
+          position: relative;
+          bottom: 480px;
+          row-gap: 35px;
+        }
+
+        .high {
+          display: flex;
+          flex-direction: column;
+          height: 10px;
+          margin-left:800px;
+          position: relative;
+          bottom: 530px;
+          row-gap: 35px;
+        }
+
+      .box1 {
+        border: 2px solid white;
+        height: 230px;
+        width: 1531px;
+        position: relative;
+        right: 320px;
+        bottom: 140px;
+         background-color:white;
+         color: black;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         padding-left: 130px;
+         padding-top: 100px;
+         margin-top: 130px;
+         gap: 15px;
+
+      }
+
+      .renamee {
+        position: relative;
+         color: black;
+         bottom: 50px;
+       left: 70px;
+       
+             }
+
+             .renameee {
+              position: relative;
+               color: black;
+               bottom: 50px;
+             left: 270px;
+             bottom: 210px;
+                   }
+
+             
+                   .renameeee {
+                    position: relative;
+                     color: black;
+                     bottom: 50px;
+                   left: 730px;
+                   bottom: 400px;
+                         }      
+                         
+                         .renameeeee {
+                          position: relative;
+                           color: black;
+                           bottom: 450px;
+                         left: 880px;
+                         bottom: 560px;
+                               }       
+  
+
+                               .renameeeeee {
+                                position: relative;
+                                 color: black;
+                                 bottom: 450px;
+                               left: 400px;
+                               bottom: 720px;
+                                     }       
+
+                                     .renameeeeeee {
+                                      position: relative;
+                                       color: black;
+                                       bottom: 450px;
+                                     left: 550px;
+                                     bottom: 880px;
+                                           }       
+                                  
+        
+                                        
+
+
+         
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="hulu">hulu</div>
+      <div class="log">LOG IN</div>
+    </div>
+
+    <div class="grid">
+      <div class="yes">
+        <h5 class="alg">DISNEY BUNDLE DUO BASIC</h5>
+
+        <div class="basic">
+          <h2 class="colr">hulu</h2>
+          <img class="logoo" src="logo.png" alt="" />
+        </div>
+      </div>
+
+      <div class="both">Both with ads, for $9.99/month.</div>
+
+      <div class="">
+        <button class="ban"><a href="">GET THEM BOTH</a></button>
+      </div>
+    </div>
+
+    <div class="gridd">
+      <div class="yes">
+        <h5 class="alg">DISNEY BUNDLE DUO BASIC</h5>
+
+        <div class="basic">
+          <h2 class="colr">hulu</h2>
+          <img class="logoo" src="logo.png" alt="" />
+        </div>
+      </div>
+
+      <div class="both">All with ads, for $14.99/month.</div>
+
+      <div class="">
+        <button class="ban"><a href="">GET ALL THREE</a></button>
+      </div>
+    </div>
+
+    <div class="eng">
+      <a class="href" href="">Terms apply</a>
+      <div>
+        <h3><a class="for" href="">SIGN UP FOR HULU ONLY</a></h3>
+        <h4><a class="view" href="">VIEW MORE PLANS</a></h4>
+      </div>
+      <div>
+        <img class="sk" src="arrow.png" alt="" />
+      </div>
+      <div class="hov">
+        <h3 class="the">BUILD THE PLAN THAT'S RIGHT FOR YOU</h3>
+        <h3 class="vs">START BUILDING</h3>
+      </div>
+      <div class="blk">
+        <div class="vss">
+          <h4 class="newww">INCLUDED IN ALL PLANS</h4>
+          <h1 class="s">All The TV You Love</h1>
+
+          <h4 class="ss">
+            Watch full seasons of exclusive streaming series, current-season
+            episodes, hit movies, Hulu Originals, kids shows, and more.
+          </h4>
+        </div>
+        <div class="shri">
+          <h3 class="mean" >Past & Current Seasons</h3>
+          <h1 class="mean" >TV Shows</h1>
+        </div>
+        <div class="shrii">
+          <h3 class="meann" >New & Classic</h3>
+          <h1 class="meann" >Movies</h1>
+        </div>
+        <div class="shriii">
+          <h3 class="meannn" >Groundbreaking</h3>
+          <h1 class="meannn" >Hulu originals</h1>
+        </div>
+        <div class="shriiii">
+          <h3 class="meannnn" >Add-on</h3>
+          <h1 class="meannnn" >Premiums</h1>
+        </div>
+      </div>
+      <div class="lvee">
+      <div class="lve">
+        <h4 class="now">HULU + LIVE TV, NOW WITH DISNEY+ AND ESPN+, ALL WITH ADS</h4>
+         <h1 class="it">Live TV Makes It Better</h1>
+      <h4 class="ht">Get 90+ top channels on Hulu (With Ads) + Live TV with your favorite live sports, news, and events - plus the entire Hulu streaming library. With Unlimited DVR, store Live TV recordings for up to nine months and fast-forward through your DVR content. Access endless entertainment with Disney+ and live sports with ESPN+.</h4>
+         <div class="shiv">
+          <h3 class="shiva">Get HULU+Live TV</h3>
+         </div>
+         <div>
+          <h5 class="rice">Hulu (With Ads) + Live TV plan only. $76.99/mo (or then-current, regular monthly price). Regional restrictions, blackouts and Live TV terms apply. Access content from each service separately. Location data required to watch certain content. Unlimited DVR recording is not available for on-demand shows. See details.</h5>
+         </div>
+         <div >
+          <a class="klr" href="">VIEW CHANNELS IN YOUR AREA</a>
+         </div>
+    </div>
+    </div>
+    
+   <div class="face">
+       <img height="745px"    width= "1550px"
+       src="fifth.jpeg" alt="">
+      </div>
+
+      <div class="rud">
+        <div class="d">
+             <h5> LIVE SPORTS</h5> 
+             <h5> BREAKING NEWS</h5> 
+             <h5> BIGGEST EVENTS</h5> 
+        </div>
+        <h1 class="sm">Live Sports</h1>
+        <h3 class="catch">Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more. Includes top local and national sports networks like ABC, CBS Sports Network, ESPN, FOX, FS1, TNT, NFL Network and more.</h3>
+        <div class="imgg">
+          <img src="https://cnbl-cdn.bamgrid.com/assets/22943c5e9e0ee02501daa440ecbc2384e5e5255b6306a4100bb49bde19b1d6ca/original" alt="">
+          <img src="https://cnbl-cdn.bamgrid.com/assets/1caca943330869aaf05bf9db4adfc269ac8879fe9cee6392eba96561522d0452/original" alt="">
+          <img src="https://cnbl-cdn.bamgrid.com/assets/1011985ada97696d9ac50c3ba59cfa50d0cebb41008519c5bbe0058f9c7fc079/original" alt="">
+          <img src="https://cnbl-cdn.bamgrid.com/assets/13aa152764ceb4047c7f902524efb09c2a56e75c95991d2eb708b97cb95c25fa/original" alt="">
+    </div>
+    <div class="plan">
+      Live TV plan required. Regional restrictions, blackouts and additional terms apply. See details
+    </div>
+      </div>
+
+      <div class="grey">
+          
+      </div>
+
+      <div class="dan">
+                <h1 class="pln">Select Your Plan</h1>
+                <h3 class="plnn">No hidden fees, equipment rentals, or installation appointments.
+                  Switch plans or cancel anytime.**</h3>
+                 
+                  <div class="hum">
+                    <h4 class="">Hulu</h4>
+                    <h4 class="">Disney Bundle</h4>
+                    <h4 class="">Live TV</h4>
+                  </div>
+                  <div class="sand">
+            
+                  </div>
+
+                  <div class="ltv">
+                    <h5 class="most">MOST POPULAR</h5>
+                    <h5 class="mostt">30 DAY FREE TRIAL</h5>
+                    <h5 class="mosttt"> <img src="hulu-logo.svg" alt=""> </h5>
+                    <h5 class="mostttt">With Ads</h5>
+                    <h5 class="mosttttt">$7.99/Month</h5>
+
+                  </div>
+
+                  <div class="ltvv">
+                    <h5 class="mostt">30 DAY FREE TRIAL</h5>
+                    <h5 class="mosttt"> <img src="hulu-logo.svg" alt=""> </h5>
+                    <h5 class="mostttt">With Ads</h5>
+                    <h5 class="mosttttt">$17.99/Month</h5>
+
+                  </div>
+                  
+                  <div class="kall">
+                         <h4>Monthly price</h4>
+                         <h4>Streaming Library with tons of TV episodes and movies</h4>
+                         <h4>Most new episodes the day after they air†</h4>
+                         <h4>Access to award-winning Hulu Originals</h4>
+                         <h4>Watch on your favorite devices, including TV, laptop, phone, or tablet</h4>
+                         <h4>Up to 6 user profilesUp to 6 user profiles</h4>
+                         <h4>Watch on 2 different screens at the same time</h4>
+                         <h4>No ads in streaming libraryNo ads in streaming library</h4>
+                         <h4>Download and watchDownload and watch</h4>
+                        <div class="skkk">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                          <img height="20px" src="right.svg" alt="">
+                         
+                    </div>
+
+                      <div class="high">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                        <img height="20px" src="right.svg" alt="">
+                       
+                      </div>
+                      <div class="box1">
+                        <h4 class="renamee">BROWSE</h4>
+                        <h5 class="renamee">Streaming Library</h5>
+                        <h5 class="renamee">Live TV</h5>
+                        <h5 class="renamee">Live News</h5>
+                        <h5 class="renamee">Live Sports</h5>
+
+                        <h4 class="renameee">TV Shows</h4>
+                        <h5 class="renameee">Movies</h5>
+                        <h5 class="renameee">Originals</h5>
+                        <h5 class="renameee">Networks</h5>
+                        <h5 class="renameee">Kids</h5>
+                        <h5 class="renameee">FX</h5>
+
+                        <h4 class="renameeee">Max</h4>
+                        <h5 class="renameeee">Cinemax</h5>
+                        <h5 class="renameeee">Paramount with</h5>
+                        <h5 class="renameeee">SHOWTIME</h5>
+                        <h5 class="renameeee">STARZ</h5>
+                      
+                        <h4 class="renameeeee">Disney Bundle</h4>
+                        <h4 class="renameeeee">Trio Basic</h4>
+                        <h5 class="renameeeee">Disney Bundle</h5>
+                        <h5 class="renameeeee">Duo Basic</h5>
+                        <h5 class="renameeeee">Student Discount</h5>
+
+                        <h4 class="renameeeeee">HELP</h4>
+                        <h5 class="renameeeeee">Account & Billing</h5>
+                        <h5 class="renameeeeee">Plans & Pricing</h5>
+                        <h5 class="renameeeeee">Supported Devices</h5>
+                        <h5 class="renameeeeee">Accessibility</h5>
+
+                        <h4 class="renameeeeeee">ABOUT US</h4>
+                        <h5 class="renameeeeeee">Shop Hulu</h5>
+                        <h5 class="renameeeeeee">Press</h5>
+                        <h5 class="renameeeeeee">Jobs</h5>
+                        <h5 class="renameeeeeee">Contacts</h5>
+                        <h5 class="renameeeeeee">Guids | What to Watch</h5>
+
+                      </div>
+
+                      
+
+                
+                      
+                      
+                  </div>
+              
+      </div>
+      
+    
+    </div>
+   
+  </body>
+</html>
